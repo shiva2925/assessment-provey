@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Main Container starts from here -->
+    <div class="main-container">
+        <h3> YAY it's BOGO</h3>
+
+
+        <div class="secondary-container">
+            <!-- First Box starts from here, main view -->
+            <div class="card" onclick="handleViewCardOpen(0)">
+                <div class="offer-box">
+                    <p>30%</p>
+                    <p>Off</p>
+                </div>
+                <div class="chain">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <!-- <p></p> -->
+                    <!-- <p></p> -->
+                    
+                </div>
+                <div class="details-box">
+                    <div class="radio-box">
+                        <input type="radio" checked class="card-radio" />
+                    </div>
+                    <div class="content-box">
+                        <div>
+                            <p>Buy 1 Get 2</p>
+                        <p class="price-usd">$18.00 USD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- First Box , description view -->
+            <div class="view-card" onclick="handleViewCardClose(0)">
+               <div class="view-card-info">
+                <div class="radio-box" style="margin: auto 0px;">
+                    <input type="radio" checked />
+                </div>
+                <div style="font-size: 14px; padding: 0px 8px;">
+                    <p >Buy 1 Get 2 <span class="off-info">10% Off</span></p>
+                <p style="margin-top:2px"><b>$18.00 USD</b> <span class="cross-price">$20.00 USD</span></p>
+                </div>
+                
+               </div>
+               <div class="select-container">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Size</td>
+                        <td>Color</td>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td><select name="size" id="size">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                          </select></td>
+                        <td><select name="color" id="color">
+                            <option value="black">Black</option>
+                            <option value="red">Red</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="blue">Blue</option>
+                          </select></td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td><select name="size-1" id="size-1">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                          </select></td>
+                        <td><select name="colour-1" id="colour-1">
+                            <option value="black">Black</option>
+                            <option value="red">Red</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="blue">Blue</option>
+                          </select></td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+
+            <!-- second Box starts from here -->
+            <div class="card" onclick="handleViewCardOpen(1)">
+                <div class="offer-box">
+                    <p>30%</p>
+                    <p>Off</p>
+                </div>
+                <div class="chain">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <!-- <p></p> -->
+                    <!-- <p></p> -->
+                    
+                </div>
+                <div class="details-box">
+                    <div class="radio-box">
+                        <input type="radio" class="card-radio" checked />
+                    </div>
+                    <div class="content-box">
+                        <div>
+                            <p>Buy 2 Get 4</p>
+                        <p><b>$24.00 USD</b></p>
+                        </div>
+                        <div style="padding: 6px 20px;">
+                            <p style="color: #FF6B82;font-size: 12px;font-weight: 600; ">Most Popular</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <!-- second Box , description view -->
+               <div class="view-card" onclick="handleViewCardClose(1)">
+                <div class="view-card-info">
+                 <div class="radio-box" style="margin: auto 0px;">
+                     <input type="radio" checked />
+                 </div>
+                 <div style="font-size: 14px; padding: 0px 8px;">
+                     <p >Buy 2 Get 4 <span class="off-info">10% Off</span></p>
+                 <p style="margin-top:2px"><b>$24.00 USD</b> <span class="cross-price">$28.00 USD</span></p>
+                 </div>
+                 
+                </div>
+                <div class="select-container">
+                 <table>
+                     <tr>
+                         <td></td>
+                         <td>Size</td>
+                         <td>Color</td>
+                     </tr>
+                     <tr>
+                         <td>#1</td>
+                         <td><select name="size" id="size">
+                             <option value="s">S</option>
+                             <option value="m">M</option>
+                             <option value="xl">XL</option>
+                             <option value="xxl">XXL</option>
+                           </select></td>
+                         <td><select name="color" id="color">
+                             <option value="black">Black</option>
+                             <option value="red">Red</option>
+                             <option value="yellow">Yellow</option>
+                             <option value="blue">Blue</option>
+                           </select></td>
+                     </tr>
+                     <tr>
+                         <td>#2</td>
+                         <td><select name="size-1" id="size-1">
+                             <option value="s">S</option>
+                             <option value="m">M</option>
+                             <option value="xl">XL</option>
+                             <option value="xxl">XXL</option>
+                           </select></td>
+                         <td><select name="colour-1" id="colour-1">
+                             <option value="black">Black</option>
+                             <option value="red">Red</option>
+                             <option value="yellow">Yellow</option>
+                             <option value="blue">Blue</option>
+                           </select></td>
+                     </tr>
+                 </table>
+             </div>
+             </div>
+
+                  <!-- third Box starts from here, main view -->
+            <div class="card" onclick="handleViewCardOpen(2)" style="display: none;">
+                <div class="offer-box">
+                    <p>30%</p>
+                    <p>Off</p>
+                </div>
+                <div class="chain">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <!-- <p></p> -->
+                    <!-- <p></p> -->
+                    
+                </div>
+                <div class="details-box">
+                    <div class="radio-box">
+                        <input type="radio" class="card-radio" checked/>
+                    </div>
+                    <div class="content-box" >
+                        <div>
+                            <p>Buy 3 Get 6</p>
+                        <p><b>$36.00 USD</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- third Box , description view -->
+            <div class="view-card" onclick="handleViewCardClose(2)" style="display: block;">
+               <div class="view-card-info">
+                <div class="radio-box" style="margin: auto 0px;">
+                    <input type="radio" checked />
+                </div>
+                <div style="font-size: 14px; padding: 0px 8px;">
+                    <p >Buy 3 Get 6 <span class="off-info">10% Off</span></p>
+                <p style="margin-top:2px"><b>$36.00 USD</b> <span class="cross-price">$42.00 USD</span></p>
+                </div>
+                
+               </div>
+               <div class="select-container" >
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Size</td>
+                        <td>Color</td>
+                    </tr>
+                    <tr>
+                        <td>#1</td>
+                        <td><select name="size" id="size"  >
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                          </select></td>
+                        <td><select name="color" id="color" >
+                            <option value="black">Black</option>
+                            <option value="red">Red</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="blue">Blue</option>
+                          </select></td>
+                    </tr>
+                    <tr>
+                        <td>#2</td>
+                        <td><select name="size-1" id="size-1">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                          </select></td>
+                        <td><select name="colour-1" id="colour-1" >
+                            <option value="black">Black</option>
+                            <option value="red">Red</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="blue">Blue</option>
+                          </select></td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+       <div class="delivery-info">
+        <p>Free Delivery</p>
+        <p>Total : $18.00 USD</p>
+       </div>
+       <button type="button" class="cart-btn"><p>+</p> Add to Cart</button>
+       <div style="display: flex; justify-content: center;">
+        <div class="developer">
+            <span class="power">Powered by </span>
+            <span class="pumber"> Pumper</span>
+           </div>
+       </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
